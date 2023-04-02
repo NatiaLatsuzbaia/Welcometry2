@@ -1,0 +1,84 @@
+ @font-face {
+    font-family:"Inter" ;
+    src: url(./Data/Fonts/inter.ttf);
+}
+
+@font-face { 
+    font-family: "Montserrat-VariableFont_wght";
+    src: url(./Data/Fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+img{
+    float: right;
+}
+
+div{
+    position: relative;
+}
+
+.a1{
+    color: #D6D6D6;
+    font-family: 'Inter';
+    font-size: 27px;
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.a2{
+    width: 1012px;
+    font-family: 'Montserrat-VariableFont_wght';
+    font-size: 210px;
+    font-weight: 900;
+    text-align: left;
+    color: #FFFFFF;
+    -webkit-text-stroke: 1px ;
+     color:transparent; 
+    -webkit-text-stroke-color: #FFFFFF; 
+    background-color: none; 
+}
+
+p{
+    margin: 0;
+    line-height: 0.7;
+    width: 1012px;
+}
+
+.a3{
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+    color:#FFFFFF;
+    width: 472px;
+    position: absolute;
+    padding-top: 550px;
+    margin-left: 200px;    
+}
+
+.D{
+    position: absolute;
+    width: 1012px;
+    height: 210px;
+    background-color: none;
+    margin-left: 110px;
+    padding-top: 180px ;   
+}
+
+.img1{
+   margin-right: 700px;
+}
+
+.img2{
+    position: absolute;
+}
+
